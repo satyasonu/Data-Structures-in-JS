@@ -6,23 +6,23 @@
 var countCharacters = function (words, chars) {
   const ch = {};
 
-  for (const c of chars) {
+  for (var c of chars) {
     ch[c] = 1 + (ch[c] || 0);
   }
   let result = 0;
-  for (const w of words) {
-    const copy = { ...ch };
+  for (var w of words) {
+    var copy = { ...ch };
     for (const c of w) {
       if (c in copy && copy[c] !== 0) {
         copy[c] -= 1;
       } else {
-        res -= w.length;
+        result -= w.length;
         break;
       }
     }
 
-    res += word.length;
+    result += w.length;
   }
 
-  return res;
+  return result;
 };
