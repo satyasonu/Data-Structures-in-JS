@@ -9,3 +9,4 @@ var buildArray = function (nums) {
   }
   return ans;
 };
+console.log(buildArray([0, 2, 4, 1, 5]));
