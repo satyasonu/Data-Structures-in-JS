@@ -1,3 +1,0 @@
-let helper = (min , max) => {
-  
-}
