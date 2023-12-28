@@ -8,3 +8,4 @@ for (let i = 1; i < array.length; i++) {
   }
   console.log(largest);
 }
+// Time complexity is O(n);
