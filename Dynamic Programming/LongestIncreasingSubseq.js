@@ -2,8 +2,4 @@
  * @param {number[]} nums
  * @return {number}
  */
-var lengthOfLIS = function (nums) {
-  {
-    jadlsknfla;
-  }
-};
+var lengthOfLIS = function (nums) {};
