@@ -7,7 +7,7 @@ fruits[2] = "Mango";
 console.log(fruits);
 
 // fruits[2] = "kiwi";
-// console.log(fruits[2]);
+// console.log(fruits[2]); 
 
 // const Arr = new Array(5);
 // console.log(Arr);
