@@ -25,4 +25,5 @@ var intervalIntersection = function (firstList, secondList) {
       j++;
     }
   }
+  return result;
 };
