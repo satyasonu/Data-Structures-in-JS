@@ -1,7 +1,4 @@
-function f(i) {
-  const s = "MADAM";
-  const n = s.length;
-
+function f(i, s, n) {
   if (i >= n / 2) {
     return true;
   }
@@ -10,7 +7,9 @@ function f(i) {
     return false;
   }
 
-  return f(i + 1);
+  return f(i + 1, s, n);
 }
 
-console.log(f(0));
+const s = "MADAM";
+const n = s.length;
+console.log(f(0, s, n));
