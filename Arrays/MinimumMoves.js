@@ -2,4 +2,6 @@
  * @param {number[]} nums
  * @return {number}
  */
-var minMoves2 = function (nums) {};
+var minMoves2 = function (nums) {
+    
+};
