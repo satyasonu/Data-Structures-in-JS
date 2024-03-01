@@ -10,4 +10,6 @@
  * @param {TreeNode} root
  * @return {boolean}
  */
-var isEvenOddTree = function (root) {};
+var isEvenOddTree = function (root) {
+
+};
