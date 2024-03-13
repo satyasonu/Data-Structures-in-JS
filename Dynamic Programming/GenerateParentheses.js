@@ -2,4 +2,6 @@
  * @param {number} n
  * @return {string[]}
  */
-var generateParenthesis = function (n) {};
+var generateParenthesis = function (n) {
+    
+};
