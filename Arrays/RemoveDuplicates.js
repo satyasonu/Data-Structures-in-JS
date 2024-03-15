@@ -2,6 +2,9 @@
 //  * @param {number[]} nums
 //  * @return {number}
 //  */
+
+//This returns the count
+
 // var removeDuplicates = function (nums) {
 //   let count = 1; // Initialize the count of unique elements to 1
 //   for (let i = 1; i < nums.length; i++) {
@@ -15,6 +18,7 @@
 // nums = [10, 20, 20, 30, 30, 30];
 // console.log(removeDuplicates(nums));
 
+//This basically return an array
 function removeDuplicatesArr(array) {
   let temp = [];
   for (let i = 0; i < array.length - 1; i++) {
