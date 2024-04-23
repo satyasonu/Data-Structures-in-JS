@@ -42,5 +42,7 @@ var rotate = function (nums, k) {
     for (var i = 0; i < nums.length; i++) {
       nums[i] = arr[i];
     }
+    return arr;
   }
+  return arr;
 };
